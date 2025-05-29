@@ -35,7 +35,7 @@
       </nav>
 
       <a href="#" class="contact-btn">
-        <div style="display: flex; gap: 0px;">
+        <div style="display: flex; gap: 0px; justify-content: center; align-items: center;">
             <div>
                 Contact Us 
             </div>
@@ -60,7 +60,7 @@
       <a href="#">FAQs</a>
       <a href="#">Shop Bundles</a>
       <a href="#" class="contact-btn mobile-contact-btn">
-        <div style="display: flex; gap: 0px;">
+        <div style="display: flex; gap: 0px; justify-content: center; align-items: center;">
             <div>
                 Contact Us 
             </div>
@@ -88,7 +88,7 @@
       <h1>Breathe better,<br>live better!</h1>
       <p>Discover how effortless breathing can enhance your life.<br>Take the first step Today!</p>
       <a href="#" class="hero-shop-button">
-        <div style="display: flex; gap: 0px;">
+        <div style="display: flex; gap: 0px; justify-content: center; align-items: center;">
           <div>
               Shop Now 
           </div>
@@ -100,7 +100,80 @@
     </div>
   </section>
 
+  <!-- Single Product display section -->
+  <section>
+    <div class="single-product-container">
+      <div class="single-product-image-section">
+        <div class="single-product-main-image">
+          <img id="mainProductImage" src="https://i.postimg.cc/hGTVzC1g/product-1.png" alt="Noseclip">
+        </div>
+        <div class="single-product-thumbnails">
+          <img class="single-product-thumbnail selected" src="https://i.postimg.cc/hGTVzC1g/product-1.png" onclick="changeImage(this)">
+          <img class="single-product-thumbnail" src="https://i.postimg.cc/hGkdbN0h/O1-CN01-P2r-XPy2-BUgux-WNj-A4-2-item-pic-png-468x468-Q75-jpg.webp" onclick="changeImage(this)">
+          <img class="single-product-thumbnail" src="https://i.postimg.cc/LXk3qHMm/erasebg-transformed.webp" onclick="changeImage(this)">
+          <img class="single-product-thumbnail" src="https://i.postimg.cc/KYPMfJpN/O1-CN01-Y8-MODL1dqwzik-Mu-YA-6000000003788-2-yinhe-png-468x468-Q75-jpg.webp" onclick="changeImage(this)">
+        </div>
+      </div>
+      <div class="single-product-info-section">
+        <div class="single-product-stars" style="display: flex; align-items: center; gap: 5px;">
+          <div>
+            <img src="https://i.postimg.cc/QM906kgn/rating-star.png">
+          </div>
+          <div>
+            <span style="font-weight: bold;">4.5</span> (500+ Reviews)
+          </div>
+        </div>
+        <h2>Noseclip</h2>
+        <div class="single-product-price">$12.00 <span class="single-product-old-price">$20.00</span><span class="single-product-discount">SAVE 10%</span></div>
+        <h3>Description:</h3>
+        <p>A nasal clip is a small device typically used to pinch or secure the nostrils for various purposes, such as during sports, medical treatments, or personal health practices. It is usually made of flexible or padded materials to ensure comfort and a secure fit. Common uses include:</p>
+        <ul class="single-product-features" style="display: flex; flex-wrap: wrap; gap: 20%;">
+          <div>
+            <li style="display: flex; align-items: center; gap: 5px;"> <img src="https://i.postimg.cc/cJxnDQqG/Frame.png"> performance</li>
+            <li style="display: flex; align-items: center; gap: 5px;"> <img src="https://i.postimg.cc/cJxnDQqG/Frame.png"> Optimized Airflow</li>
+          </div>
+          <div>
+            <li style="display: flex; align-items: center; gap: 5px;"> <img src="https://i.postimg.cc/cJxnDQqG/Frame.png"> Stop snoring</li>
+            <li style="display: flex; align-items: center; gap: 5px;"> <img src="https://i.postimg.cc/cJxnDQqG/Frame.png"> 100% Drug Free</li>
+          </div>
+        </ul>
 
+        <button class="single-product-add-to-cart">
+          <div style="display: flex; gap: 0px; justify-content: center; align-items: center;">
+            <div>
+                Add to Card 
+            </div>
+            <div>
+                <img src="images/Vector.svg" alt="arrow icon" width="30" height="20" style="color:white">
+            </div>
+        </div>
+        </button>
+
+        <div class="single-product-payments">
+          <img src="https://i.postimg.cc/PJt9J39F/apple-pay.png" alt="Apple Pay">
+          <img src="https://i.postimg.cc/dQBgpFTM/google-pay.png" alt="Google Pay">
+          <img src="https://i.postimg.cc/W3mx2LWk/mastercard.png" alt="Mastercard">
+          <img src="https://i.postimg.cc/vT3jV7d8/shoppay.png" alt="Shop">
+          <img src="https://i.postimg.cc/02yhq4pz/visa-card.png" alt="Visa">
+        </div>
+
+        <div class="single-product-accordion">
+          <details class="single-product-accordion-item">
+            <summary>Sizing information</summary>
+            <p>Adjustable to fit most nostril sizes comfortably and securely.</p>
+          </details>
+          <details class="single-product-accordion-item">
+            <summary>Free resizing</summary>
+            <p>Free exchange if the fit isn't perfect.</p>
+          </details>
+          <details class="single-product-accordion-item">
+            <summary>Money back guarantee & free returns</summary>
+            <p>Full refund within 30 days if not satisfied, with free return shipping.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="script/script.js"></script>
 </body>
