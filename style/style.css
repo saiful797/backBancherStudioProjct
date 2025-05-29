@@ -1,0 +1,99 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  padding: 15px 20px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #f97316;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #f97316;
+}
+
+.contact-btn {
+  background-color: #f97316;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contact-btn:hover {
+  background-color: #ea5b00;
+}
+
+/* Mobile Menu */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 10px;
+  background-color: white;
+  border-top: 1px solid #eee;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .nav-links {
+    display: none;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .mobile-menu a {
+    font-size: 14px;
+  }
+
+  .mobile-menu .contact-btn {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+}
