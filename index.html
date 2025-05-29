@@ -12,11 +12,15 @@
     <!-- Css Style here -->
   <link rel="stylesheet" href="style/style.css"/>
 </head>
+
+
 <body>
+  <!-- Header section -->
   <header class="navbar">
     <div class="container">
       <div class="logo">logo</div>
 
+      <!-- Large devices Menus -->
       <nav class="nav-links" id="nav-links">
         <a href="#">home</a>
         <a href="#">Why It Works</a>
@@ -29,12 +33,21 @@
         <a href="#">Shop Bundles</a>
       </nav>
 
-      <a href="#" class="contact-btn">Contact Us <img></a>
+      <a href="#" class="contact-btn">
+        <div style="display: flex; gap: 0px;">
+            <div>
+                Contact Us 
+            </div>
+            <div>
+                <img src="images/Vector.svg" alt="arrow icon" width="30" height="20" style="color:white">
+            </div>
+        </div>
+      </a>
 
-      <button class="menu-toggle" id="menu-toggle"><img src="images/hamburger-menu-icon.svg" height="50" width="50" alt="menu icon"></button>
+      <button class="menu-toggle" id="menu-toggle"><img src="images/hamburger-menu-icon.svg" height="30" width="30" alt="menu icon"></button>
     </div>
 
-    <!-- Mobile Menu -->
+    <!-- Small or Mobile Menus -->
     <div class="mobile-menu" id="mobile-menu">
       <a href="#">home</a>
       <a href="#">Why It Works</a>
@@ -45,8 +58,8 @@
       <a href="#">Science</a>
       <a href="#">FAQs</a>
       <a href="#">Shop Bundles</a>
-      <a href="#" class="contact-btn">
-        <div style="display: flex; gap: 20px;">
+      <a href="#" class="contact-btn mobile-contact-btn">
+        <div style="display: flex; gap: 0px;">
             <div>
                 Contact Us 
             </div>
