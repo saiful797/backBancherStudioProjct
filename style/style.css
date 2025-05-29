@@ -147,7 +147,7 @@ a {
 
 .hero-shop-button {
   display: inline-block;
-  background-color: #f97316;
+  background-color: #FF6600;
   color: white;
   padding: 16px 24px;
   font-size: 16px;
@@ -159,7 +159,7 @@ a {
 }
 
 .hero-shop-button:hover {
-  background-color: #ea580c;
+  background-color: #FF6600;
 }
 
 
@@ -195,7 +195,7 @@ a {
 
   /* Hero Section */
   .hero {
-    padding: 0 5%;
+    padding: 0 1px;
     text-align: center;
     justify-content: center;
   }
