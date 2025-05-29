@@ -332,6 +332,62 @@ a {
 }
 
 
+/* Pain points and solution overview section css here */
+.pain-points-solution-overview-container {
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #6B2B00;
+  color: white;
+}
+.pain-points-solution-overview-pain-points,
+.pain-points-solution-overview-solution-overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.pain-points-solution-overview-solution-overview {
+  flex-direction: row-reverse;
+}
+
+.pain-points-solution-overview-pain-points .pain-points-solution-overview-image,
+.pain-points-solution-overview-solution-overview .pain-points-solution-overview-image {
+    flex: 1 1 300px;
+    padding: 10px;
+}
+.pain-points-solution-overview-pain-points .pain-points-solution-overview-text,
+.pain-points-solution-overview-solution-overview .pain-points-solution-overview-text {
+    flex: 1 1 300px;
+    padding: 20px;
+}
+.pain-points-solution-overview-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.pain-points-solution-overview-h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.pain-points-solution-overview-h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.pain-points-solution-overview-p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.pain-points-solution-overview-ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.pain-points-solution-overview-li {
+    margin-bottom: 10px;
+}
+
 
 /* ======================Responsive CSS====================== */
 
@@ -427,5 +483,11 @@ a {
 
   .single-product-price {
     font-size: 20px;
+  }
+
+
+  /* Pain points and solution overview section css here */
+  .pain-points-solution-overview-container {
+    padding: 0px;
   }
 }
